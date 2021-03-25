@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A160F354260CB463007312C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F353260CB463007312C1 /* AppDelegate.swift */; };
+		A160F356260CB463007312C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F355260CB463007312C1 /* SceneDelegate.swift */; };
+		A160F358260CB463007312C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F357260CB463007312C1 /* ViewController.swift */; };
+		A160F35B260CB463007312C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F359260CB463007312C1 /* Main.storyboard */; };
+		A160F35D260CB466007312C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A160F35C260CB466007312C1 /* Assets.xcassets */; };
+		A160F360260CB466007312C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F35E260CB466007312C1 /* LaunchScreen.storyboard */; };
+		A160F36B260CB466007312C1 /* SimpleCallAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F36A260CB466007312C1 /* SimpleCallAppTests.swift */; };
+		A160F376260CB466007312C1 /* SimpleCallAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A160F367260CB466007312C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A160F348260CB463007312C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A160F34F260CB463007312C1;
+			remoteInfo = SimpleCallApp;
+		};
+		A160F372260CB466007312C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A160F348260CB463007312C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A160F34F260CB463007312C1;
+			remoteInfo = SimpleCallApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A160F350260CB463007312C1 /* SimpleCallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A160F353260CB463007312C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A160F355260CB463007312C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A160F357260CB463007312C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A160F35A260CB463007312C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A160F35C260CB466007312C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A160F35F260CB466007312C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A160F361260CB466007312C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A160F366260CB466007312C1 /* SimpleCallAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCallAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A160F36A260CB466007312C1 /* SimpleCallAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCallAppTests.swift; sourceTree = "<group>"; };
+		A160F36C260CB466007312C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A160F371260CB466007312C1 /* SimpleCallAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCallAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCallAppUITests.swift; sourceTree = "<group>"; };
+		A160F377260CB466007312C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A160F34D260CB463007312C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F363260CB466007312C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F36E260CB466007312C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A160F347260CB463007312C1 = {
+			isa = PBXGroup;
+			children = (
+				A160F352260CB463007312C1 /* SimpleCallApp */,
+				A160F369260CB466007312C1 /* SimpleCallAppTests */,
+				A160F374260CB466007312C1 /* SimpleCallAppUITests */,
+				A160F351260CB463007312C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A160F351260CB463007312C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A160F350260CB463007312C1 /* SimpleCallApp.app */,
+				A160F366260CB466007312C1 /* SimpleCallAppTests.xctest */,
+				A160F371260CB466007312C1 /* SimpleCallAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A160F352260CB463007312C1 /* SimpleCallApp */ = {
+			isa = PBXGroup;
+			children = (
+				A160F353260CB463007312C1 /* AppDelegate.swift */,
+				A160F355260CB463007312C1 /* SceneDelegate.swift */,
+				A160F357260CB463007312C1 /* ViewController.swift */,
+				A160F359260CB463007312C1 /* Main.storyboard */,
+				A160F35C260CB466007312C1 /* Assets.xcassets */,
+				A160F35E260CB466007312C1 /* LaunchScreen.storyboard */,
+				A160F361260CB466007312C1 /* Info.plist */,
+			);
+			path = SimpleCallApp;
+			sourceTree = "<group>";
+		};
+		A160F369260CB466007312C1 /* SimpleCallAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A160F36A260CB466007312C1 /* SimpleCallAppTests.swift */,
+				A160F36C260CB466007312C1 /* Info.plist */,
+			);
+			path = SimpleCallAppTests;
+			sourceTree = "<group>";
+		};
+		A160F374260CB466007312C1 /* SimpleCallAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */,
+				A160F377260CB466007312C1 /* Info.plist */,
+			);
+			path = SimpleCallAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A160F34F260CB463007312C1 /* SimpleCallApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A160F37A260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallApp" */;
+			buildPhases = (
+				A160F34C260CB463007312C1 /* Sources */,
+				A160F34D260CB463007312C1 /* Frameworks */,
+				A160F34E260CB463007312C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCallApp;
+			productName = SimpleCallApp;
+			productReference = A160F350260CB463007312C1 /* SimpleCallApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A160F365260CB466007312C1 /* SimpleCallAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A160F37D260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallAppTests" */;
+			buildPhases = (
+				A160F362260CB466007312C1 /* Sources */,
+				A160F363260CB466007312C1 /* Frameworks */,
+				A160F364260CB466007312C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A160F368260CB466007312C1 /* PBXTargetDependency */,
+			);
+			name = SimpleCallAppTests;
+			productName = SimpleCallAppTests;
+			productReference = A160F366260CB466007312C1 /* SimpleCallAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A160F370260CB466007312C1 /* SimpleCallAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A160F380260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallAppUITests" */;
+			buildPhases = (
+				A160F36D260CB466007312C1 /* Sources */,
+				A160F36E260CB466007312C1 /* Frameworks */,
+				A160F36F260CB466007312C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A160F373260CB466007312C1 /* PBXTargetDependency */,
+			);
+			name = SimpleCallAppUITests;
+			productName = SimpleCallAppUITests;
+			productReference = A160F371260CB466007312C1 /* SimpleCallAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A160F348260CB463007312C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A160F34F260CB463007312C1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A160F365260CB466007312C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A160F34F260CB463007312C1;
+					};
+					A160F370260CB466007312C1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A160F34F260CB463007312C1;
+					};
+				};
+			};
+			buildConfigurationList = A160F34B260CB463007312C1 /* Build configuration list for PBXProject "SimpleCallApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A160F347260CB463007312C1;
+			productRefGroup = A160F351260CB463007312C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A160F34F260CB463007312C1 /* SimpleCallApp */,
+				A160F365260CB466007312C1 /* SimpleCallAppTests */,
+				A160F370260CB466007312C1 /* SimpleCallAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A160F34E260CB463007312C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A160F360260CB466007312C1 /* LaunchScreen.storyboard in Resources */,
+				A160F35D260CB466007312C1 /* Assets.xcassets in Resources */,
+				A160F35B260CB463007312C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F364260CB466007312C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F36F260CB466007312C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A160F34C260CB463007312C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A160F358260CB463007312C1 /* ViewController.swift in Sources */,
+				A160F354260CB463007312C1 /* AppDelegate.swift in Sources */,
+				A160F356260CB463007312C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F362260CB466007312C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A160F36B260CB466007312C1 /* SimpleCallAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A160F36D260CB466007312C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A160F376260CB466007312C1 /* SimpleCallAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A160F368260CB466007312C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A160F34F260CB463007312C1 /* SimpleCallApp */;
+			targetProxy = A160F367260CB466007312C1 /* PBXContainerItemProxy */;
+		};
+		A160F373260CB466007312C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A160F34F260CB463007312C1 /* SimpleCallApp */;
+			targetProxy = A160F372260CB466007312C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A160F359260CB463007312C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A160F35A260CB463007312C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A160F35E260CB466007312C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A160F35F260CB466007312C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A160F378260CB466007312C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A160F379260CB466007312C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A160F37B260CB466007312C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A160F37C260CB466007312C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A160F37E260CB466007312C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCallApp.app/SimpleCallApp";
+			};
+			name = Debug;
+		};
+		A160F37F260CB466007312C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCallApp.app/SimpleCallApp";
+			};
+			name = Release;
+		};
+		A160F381260CB466007312C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCallApp;
+			};
+			name = Debug;
+		};
+		A160F382260CB466007312C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleCallAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maro.SimpleCallAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCallApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A160F34B260CB463007312C1 /* Build configuration list for PBXProject "SimpleCallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A160F378260CB466007312C1 /* Debug */,
+				A160F379260CB466007312C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A160F37A260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A160F37B260CB466007312C1 /* Debug */,
+				A160F37C260CB466007312C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A160F37D260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A160F37E260CB466007312C1 /* Debug */,
+				A160F37F260CB466007312C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A160F380260CB466007312C1 /* Build configuration list for PBXNativeTarget "SimpleCallAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A160F381260CB466007312C1 /* Debug */,
+				A160F382260CB466007312C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A160F348260CB463007312C1 /* Project object */;
+}
