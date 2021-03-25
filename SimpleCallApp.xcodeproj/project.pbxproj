@@ -15,6 +15,7 @@
 		A160F360260CB466007312C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160F35E260CB466007312C1 /* LaunchScreen.storyboard */; };
 		A160F36B260CB466007312C1 /* SimpleCallAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F36A260CB466007312C1 /* SimpleCallAppTests.swift */; };
 		A160F376260CB466007312C1 /* SimpleCallAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */; };
+		A160F38D260CCA27007312C1 /* PositiveSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F38C260CCA27007312C1 /* PositiveSimpleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A160F371260CB466007312C1 /* SimpleCallAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCallAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCallAppUITests.swift; sourceTree = "<group>"; };
 		A160F377260CB466007312C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A160F38C260CCA27007312C1 /* PositiveSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveSimpleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A160F35C260CB466007312C1 /* Assets.xcassets */,
 				A160F35E260CB466007312C1 /* LaunchScreen.storyboard */,
 				A160F361260CB466007312C1 /* Info.plist */,
+				A160F38C260CCA27007312C1 /* PositiveSimpleButton.swift */,
 			);
 			path = SimpleCallApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A160F358260CB463007312C1 /* ViewController.swift in Sources */,
+				A160F38D260CCA27007312C1 /* PositiveSimpleButton.swift in Sources */,
 				A160F354260CB463007312C1 /* AppDelegate.swift in Sources */,
 				A160F356260CB463007312C1 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PJKB3W8U6;
 				INFOPLIST_FILE = SimpleCallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PJKB3W8U6;
 				INFOPLIST_FILE = SimpleCallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
