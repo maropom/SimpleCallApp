@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		A160F36B260CB466007312C1 /* SimpleCallAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F36A260CB466007312C1 /* SimpleCallAppTests.swift */; };
 		A160F376260CB466007312C1 /* SimpleCallAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F375260CB466007312C1 /* SimpleCallAppUITests.swift */; };
 		A160F38D260CCA27007312C1 /* PositiveSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160F38C260CCA27007312C1 /* PositiveSimpleButton.swift */; };
+		A1BC470526135FE100308556 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A1BC470426135FE100308556 /* Alamofire */; };
+		A1BC470B261360FD00308556 /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = A1BC470A261360FD00308556 /* Kanna */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BC470B261360FD00308556 /* Kanna in Frameworks */,
+				A1BC470526135FE100308556 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +151,10 @@
 			dependencies = (
 			);
 			name = SimpleCallApp;
+			packageProductDependencies = (
+				A1BC470426135FE100308556 /* Alamofire */,
+				A1BC470A261360FD00308556 /* Kanna */,
+			);
 			productName = SimpleCallApp;
 			productReference = A160F350260CB463007312C1 /* SimpleCallApp.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +226,10 @@
 				Base,
 			);
 			mainGroup = A160F347260CB463007312C1;
+			packageReferences = (
+				A1BC470326135FE100308556 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A1BC4709261360FD00308556 /* XCRemoteSwiftPackageReference "Kanna" */,
+			);
 			productRefGroup = A160F351260CB463007312C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -595,6 +607,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1BC470326135FE100308556 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		A1BC4709261360FD00308556 /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tid-kijyun/Kanna";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1BC470426135FE100308556 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1BC470326135FE100308556 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A1BC470A261360FD00308556 /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1BC4709261360FD00308556 /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A160F348260CB463007312C1 /* Project object */;
 }
